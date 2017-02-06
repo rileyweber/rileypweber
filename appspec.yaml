@@ -1,0 +1,13 @@
+version: 0.0
+
+os: linux
+
+files:
+  - source: /source
+    destination: /var/www/rileypweber/public_html
+
+permissions:
+  - object: /var/www/rileypweber/public_html
+    pattern: "**"
+    owner: www-data
+    group: development
