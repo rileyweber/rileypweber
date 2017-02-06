@@ -2,7 +2,35 @@ body{
 	margin: 0;
 	padding: 0;
 
-	background: url(/bin/images/bg-1.jpg) no-repeat center center;
+	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/bin/images/bg-1.jpg) no-repeat center center fixed;
 	background-size: cover;
+}
+.me{
+	font-family: lato;
+	font-weight: 200;
+	font-size: 30px;
+	color: white;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.nav{
+	font-family: lato;
+	font-weight: 200;
+	font-size: 15px;
+	color: rgba(190,190,190,0.5);
+	position: fixed;
+	top:0px;
+	right: 0px;
+}
+.nav-item{
+	background-color: rgba(0,0,0,0.25);
+	display: inline-block;
+	padding: 10px;
+	cursor: pointer;
+}
+.nav-item:hover{
+	background-color: rgba(0,0,0,0.8);
 }
 
